@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <title>todo List</title>
+</head>
+<style>
+  .completed{
+    text-decoration: line-through;
+  }
+</style>
+<body>
+  <div class="container">
+    <h3 class="text-center">My Todo List</h3>
+    <div class="col-md-12">
+      <input type="text" class="form-control" id="input-value">
+      <input type="submit" id="btn-submit" class="btn btn-sm btn-primary" value="thêm" style="margin: 5px 0px;">
+      <br>
+      <select id="select-todo" class="form-control">
+        <option value="tatca">Tất cả công việc</option>
+        <option value="hoanthanh">Hoàn thành</option>
+        <option value="chuahoanthanh">Chưa hoàn thành</option>
+      </select>
+    </div>
+    <ul>
+      <div id="todo-list">
+
+      </div>
+      <!-- <div class="todo">
+        <li>học web</li>
+        <button class="">Đã hoàn thành</button>
+        <button class="">Xóa</button>
+      </div>
+      <div class="todo">
+        <li>học web</li>
+        <button class="">Đã hoàn thành</button>
+        <button class="">Xóa</button>
+      </div>
+      <div class="todo">
+        <li>học web</li>
+        <button class="">Đã hoàn thành</button>
+        <button class="">Xóa</button>
+      </div> -->
+    </ul>
+  </div>
+</body>
+<script src="todoList.js"></script>
+</html>
